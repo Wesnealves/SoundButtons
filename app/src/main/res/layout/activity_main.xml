@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/button_sound1"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonBlue"
+            android:onClick="playSound"
+            android:text="@string/sound_1" />
+
+        <Button
+            android:id="@+id/button_sound2"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonBlue"
+            android:onClick="playSound"
+            android:text="@string/sound_2" />
+
+        <Button
+            android:id="@+id/button_sound3"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonBlue"
+            android:onClick="playSound"
+            android:text="@string/sound_3" />
+
+        <Button
+            android:id="@+id/button_sound4"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonBlue"
+            android:onClick="playSound"
+            android:text="@string/sound_4" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="?attr/buttonBarButtonStyle"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_sound5"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonPurple"
+            android:onClick="playSound"
+            android:text="@string/sound_5" />
+
+        <Button
+            android:id="@+id/button_sound6"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonPurple"
+            android:onClick="playSound"
+            android:text="@string/sound_6" />
+
+        <Button
+            android:id="@+id/button_sound7"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonPurple"
+            android:onClick="playSound"
+            android:text="@string/sound_7" />
+
+        <Button
+            android:id="@+id/button_sound8"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonPurple"
+            android:onClick="playSound"
+            android:text="@string/sound_8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="?attr/buttonBarButtonStyle"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_sound9"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonOrange"
+            android:onClick="playSound"
+            android:text="@string/sound_9" />
+
+        <Button
+            android:id="@+id/button_sound10"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonOrange"
+            android:onClick="playSound"
+            android:text="@string/sound_10" />
+
+        <Button
+            android:id="@+id/button_sound11"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonOrange"
+            android:onClick="playSound"
+            android:text="@string/sound_11" />
+
+        <Button
+            android:id="@+id/button_sound12"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonOrange"
+            android:onClick="playSound"
+            android:text="@string/sound_12" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_sound13"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonPink"
+            android:onClick="playSound"
+            android:text="@string/sound_13" />
+
+        <Button
+            android:id="@+id/button_sound14"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonPink"
+            android:onClick="playSound"
+            android:text="@string/sound_14" />
+
+        <Button
+            android:id="@+id/button_sound15"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonPink"
+            android:onClick="playSound"
+            android:text="@string/sound_15" />
+
+        <Button
+            android:id="@+id/button_sound16"
+            style="?attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/NeonPink"
+            android:onClick="playSound"
+            android:text="@string/sound_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="?attr/buttonBarButtonStyle"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_sound17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="playSound"
+            android:background="@color/NeonYellow"
+            style="?attr/buttonBarStyle"
+            android:text="@string/sound_17" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name ="red">#FB0505</color>
+    <color name ="orange">#FF5722</color>
+    <color name ="yellow">#FFEB3B</color>
+    <color name ="green">#8BC34A</color>
+    <color name ="darkGreen">#4CAF50</color>
+    <color name ="blue">#03A9F4</color>
+    <color name ="purple">#9C27B0</color>
+
+
+    <color name ="NeonBlue">#22eaca</color>
+    <color name ="NeonPurple">#b31e6f</color>
+    <color name ="NeonOrange">#ee5a5a</color>
+    <color name ="NeonPink">#ff9e74</color>
+    <color name="NeonYellow">#FAB652</color>
+
+</resources>
