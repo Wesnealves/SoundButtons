@@ -41,23 +41,23 @@ public class MainActivity extends AppCompatActivity {
 
         mSoundMap = new SparseIntArray();
         try{
-            mSoundMap.put(R.id.button_sound1,_soundPool.load(getApplicationContext(),R.raw.beat_01,1));
-            mSoundMap.put(R.id.button_sound2,_soundPool.load(getApplicationContext(),R.raw.beat_02,1));
-            mSoundMap.put(R.id.button_sound3,_soundPool.load(getApplicationContext(),R.raw.beat_03,1));
-            mSoundMap.put(R.id.button_sound4,_soundPool.load(getApplicationContext(),R.raw.beat_04,1));
-            mSoundMap.put(R.id.button_sound5,_soundPool.load(getApplicationContext(),R.raw.beat_05,1));
-            mSoundMap.put(R.id.button_sound6,_soundPool.load(getApplicationContext(),R.raw.beat_06,1));
-            mSoundMap.put(R.id.button_sound7,_soundPool.load(getApplicationContext(),R.raw.beat_07,1));
-            mSoundMap.put(R.id.button_sound8,_soundPool.load(getApplicationContext(),R.raw.beat_08,1));
-            mSoundMap.put(R.id.button_sound9,_soundPool.load(getApplicationContext(),R.raw.beat_09,1));
-            mSoundMap.put(R.id.button_sound10,_soundPool.load(getApplicationContext(),R.raw.beat_10,1));
-            mSoundMap.put(R.id.button_sound11,_soundPool.load(getApplicationContext(),R.raw.beat_11,1));
-            mSoundMap.put(R.id.button_sound12,_soundPool.load(getApplicationContext(),R.raw.beat_12,1));
-            mSoundMap.put(R.id.button_sound13,_soundPool.load(getApplicationContext(),R.raw.beat_13,1));
-            mSoundMap.put(R.id.button_sound14,_soundPool.load(getApplicationContext(),R.raw.beat_14,1));
-            mSoundMap.put(R.id.button_sound15,_soundPool.load(getApplicationContext(),R.raw.beat_16,1));
-            mSoundMap.put(R.id.button_sound16,_soundPool.load(getApplicationContext(),R.raw.beat_17,1));
-            mSoundMap.put(R.id.button_sound17,_soundPool.load(getApplicationContext(),R.raw.moeda,1));
+            mSoundMap.put(R.id.button_sound1,_soundPool.load(getApplicationContext(),R.raw.snd_00,1));
+            mSoundMap.put(R.id.button_sound2,_soundPool.load(getApplicationContext(),R.raw.snd_01,1));
+            mSoundMap.put(R.id.button_sound3,_soundPool.load(getApplicationContext(),R.raw.snd_02,1));
+            mSoundMap.put(R.id.button_sound4,_soundPool.load(getApplicationContext(),R.raw.snd_03,1));
+            mSoundMap.put(R.id.button_sound5,_soundPool.load(getApplicationContext(),R.raw.snd_04,1));
+            mSoundMap.put(R.id.button_sound6,_soundPool.load(getApplicationContext(),R.raw.snd_05,1));
+            mSoundMap.put(R.id.button_sound7,_soundPool.load(getApplicationContext(),R.raw.snd_06,1));
+            mSoundMap.put(R.id.button_sound8,_soundPool.load(getApplicationContext(),R.raw.snd_07,1));
+            mSoundMap.put(R.id.button_sound9,_soundPool.load(getApplicationContext(),R.raw.snd_08,1));
+            mSoundMap.put(R.id.button_sound10,_soundPool.load(getApplicationContext(),R.raw.snd_09,1));
+            mSoundMap.put(R.id.button_sound11,_soundPool.load(getApplicationContext(),R.raw.snd_010,1));
+            mSoundMap.put(R.id.button_sound12,_soundPool.load(getApplicationContext(),R.raw.snd_011,1));
+            mSoundMap.put(R.id.button_sound13,_soundPool.load(getApplicationContext(),R.raw.snd_012,1));
+            mSoundMap.put(R.id.button_sound14,_soundPool.load(getApplicationContext(),R.raw.snd_013,1));
+            mSoundMap.put(R.id.button_sound15,_soundPool.load(getApplicationContext(),R.raw.snd_014,1));
+            mSoundMap.put(R.id.button_sound16,_soundPool.load(getApplicationContext(),R.raw.snd_015,1));
+            mSoundMap.put(R.id.button_sound17,_soundPool.load(getApplicationContext(),R.raw.snd_0000000,1));
 
         }catch (Exception e){
             Log.e("MainActivity", "Error: " + e.getLocalizedMessage());
